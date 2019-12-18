@@ -1,0 +1,20 @@
+{
+    "name": "vscode-theme-madoodia",
+    "displayName": "%displayName%",
+    "description": "%description%",
+    "version": "1.0.0",
+    "publisher": "madoodia",
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "madoodia (Visual Studio Dark)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/madoodia-color-theme.json"
+            }
+        ]
+    }
+}
